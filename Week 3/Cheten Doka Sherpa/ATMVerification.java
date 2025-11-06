@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class ATMVerification {
     public static void main(String[] args) {
-        final int CORRECT_PIN = 1234;
+        int CORRECT_PIN = 1234;
         Scanner sc = new Scanner(System.in);
         int attempts = 0;
 
