@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class ATMVerification {
     public static void main(String[] args) {
-        int CORRECT_PIN = 1234;
+        int correctPin = 1234;
         Scanner sc = new Scanner(System.in);
         int attempts = 0;
 
@@ -16,7 +16,7 @@ public class ATMVerification {
             System.out.print("Enter PIN: ");
             int enteredPin = sc.nextInt();
 
-            if (enteredPin == CORRECT_PIN) {
+            if (enteredPin == correctPin) {
                 System.out.println("Access Granted");
                 return;
             } else {
